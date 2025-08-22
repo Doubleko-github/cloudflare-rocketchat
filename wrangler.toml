@@ -11,3 +11,7 @@ ROCKET_CHAT_URL="https://chat.globalreach.com/hooks/68a8130b30094a82e7ffc07e/Jwk
 [env.production.vars]
 WEBHOOK_SECRET="production-secret"
 ROCKET_CHAT_URL="https://testing-webhook.rocket.chat/hooks/XXX"
+
+# wrangler.toml (wrangler v3.88.0^)
+[observability.logs]
+enabled = true
