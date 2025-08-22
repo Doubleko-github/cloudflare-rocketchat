@@ -1,5 +1,5 @@
 name = "cloudflare-rocketchat"
-type = "javascript"
+main = "index.js"
 
 workers_dev = true
 compatibility_date = "2021-11-19"
