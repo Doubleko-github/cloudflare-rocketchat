@@ -4,6 +4,10 @@ main = "index.js"
 workers_dev = false
 compatibility_date = "2021-11-19"
 
+[routes]
+pattern = "webhook.zachariades.com"
+custom_domain = true
+
 [vars]
 WEBHOOK_SECRET="dmsT*yr5K9XDxi"
 ROCKET_CHAT_URL="https://chat.globalreach.com/hooks/68a8130b30094a82e7ffc07e/JwkooW5Yvyehjxi7mHcTfgFMXxrKWgNcEBK2tp9PiFNdsdcE"
