@@ -1,0 +1,16 @@
+name = "cloudflare-rocketchat"
+type = "javascript"
+
+account_id = ""
+workers_dev = true
+route = ""
+zone_id = ""
+compatibility_date = "2021-11-19"
+
+[vars]
+WEBHOOK_SECRET="dmsT*yr5K9XDxi"
+ROCKET_CHAT_URL="https://chat.globalreach.com/hooks/68a8130b30094a82e7ffc07e/JwkooW5Yvyehjxi7mHcTfgFMXxrKWgNcEBK2tp9PiFNdsdcE"
+
+[env.production.vars]
+WEBHOOK_SECRET="production-secret"
+ROCKET_CHAT_URL="https://testing-webhook.rocket.chat/hooks/XXX"
