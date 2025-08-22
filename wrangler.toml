@@ -4,7 +4,7 @@ main = "index.js"
 workers_dev = false
 compatibility_date = "2021-11-19"
 
-[routes]
+[[routes]]
 pattern = "webhook.zachariades.com"
 custom_domain = true
 
