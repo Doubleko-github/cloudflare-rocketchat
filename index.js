@@ -47,13 +47,16 @@ async function handleRequest(request) {
         body: JSON.stringify(rocketBody),
     }
 
-    const response = await fetch(
-        ROCKET_CHAT_URL,
-        rocketReq,
-    )
-    const res = await response.json()
-    console.log(res)
-    // TODO: You will likely want to do more with failure scenarios here.
+    try {
+        const response = await fetch(
+            ROCKET_CHAT_URL,
+            rocketReq,
+        )
+        const res = await response.json()
+        console.log(res)
+    } catch (err) {
+        console.log(err)
+    }
 
     return new Response(":)", {
         headers: {'content-type': 'text/plain'},
