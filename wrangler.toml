@@ -1,7 +1,7 @@
 name = "cloudflare-rocketchat"
 main = "index.js"
 
-workers_dev = true
+workers_dev = false
 compatibility_date = "2021-11-19"
 
 [vars]
